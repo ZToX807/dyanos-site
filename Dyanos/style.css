@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Dancing+Script&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    text-shadow: 1px 2px 3px black;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+h3 {
+    color: red;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 1px 2px 3px black;
+}
+h3.sous {
+    color: red;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 1px 2px 3px black;  
+}
+h1 {
+    text-shadow: 10px 2px 3px black;
+}
+p {
+    font-weight: bold;
+}
+h4 {
+    font-size: 2em;
+}
+
+/* ********************************************NAVBAR*********************************** 
+*/
+
+nav {
+    overflow: hidden;
+    background-color: #FFFAE1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    float: left;
+}
+/* ************************************** IMAGE PRINCIPALE ****************** */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(media/principal.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+    
+}
+h1 {
+    font-family: 'Advert Pro, sans-serif';
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 40px;
+}
+#premierTrait {
+    height: 1px;
+    width: 30%;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+}
+/* ***************** PRESENTATION *************** */
+#presentation {
+    background-color: #FFFAE1;
+    padding: 10px 0px 100px 0px;
+}
+#textIntro {
+    padding: 0px 20%;
+}
+#prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+    padding-left: 600px;
+}
+.imagesPrestations h4 {
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imagesPrestations img {
+    border-radius: 15px;
+    box-shadow: 5px 8px 4px rgba(0, 0, 0,0.83);
+}
+.imagesPrestations img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 1.2s ease-in-out;
+}
+/* ************** RECRUTEMENTS *********** */
+#posteRecrutements {
+    height: 1400px;
+    background-color: #f1f2f6;
+    padding: 1px 2%;
+}
+#posteRecrutements h2 {
+    padding-top: 60px;
+}
+#img1 {
+    background: url(media/dev2.jpg) no-repeat;
+    box-shadow: 6x 6px -1px rgba(0,0,0,0.75);
+}
+#img2 {
+    background: url(media/support1.jpg) no-repeat;
+    box-shadow: 6x 6px -1px rgba(0,0,0,0.75);
+}
+#img3 {
+    background: url(media/administrateur.png) no-repeat;
+    box-shadow: 6x 6px -1px rgba(0,0,0,0.75);
+}
+#img4 {
+    background: url(media/comptable2.png) no-repeat;
+    box-shadow: 6x 6px -1px rgba(0,0,0,0.75);
+}
+#posteRecrutements li {
+    margin: 65px 100px 0 100px;
+    height: 325px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6x 6px -1px rgba(0,0,0,0.75);
+}
+#posteRecrutements p {
+    height: 45px;
+    width: 235px;
+    background-color: #FFFAE1;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px cyan;
+}
+#posteRecrutements p:hover {
+    background-color: cyan;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.9s ease-in-out;
+}
+#posteRecrutements img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 1.2s ease-in-out;
+}
+/* ************ FOOTER ************* */
+footer {
+    background-color: #524A3A;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro';
+    border-radius: 8px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+button:hover {
+    background-color: #e55039;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+}
+#deuxièmeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+}
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1
+}
+#icons {
+    width: 50%;
+    text-align: right;
+}
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #FFFAE1;
+}
+#incons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
